@@ -9,3 +9,5 @@ function squareDigits(num){
     let arrSquare = arrNum.map((x) => Number(x)**2)
     return Number(arrSquare.join(''))
   }
+
+  //test
