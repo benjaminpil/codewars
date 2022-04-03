@@ -7,3 +7,8 @@ function squareDigits(num){
     let arrSquare = arrNum.map((x) => Number(x)**2)
     return Number(arrSquare.join(''))
   }
+
+// Make a simple function called greet that returns the most-famous "hello world!".
+  function greet(){
+    return "hello world!"
+  }
