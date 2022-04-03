@@ -18,3 +18,12 @@ function squareDigits(num){
   function reverseWords(str){
     return str.split(" ").reverse().join(" ");
   }
+
+//Your task is to make a function that can take any non-negative integer as an argument and return it with its digits in descending order.
+//Essentially, rearrange the digits to create the highest possible number.
+//example: Input: 42145 Output: 54421
+
+  function descendingOrder(n){
+    let arrNum = String(n).split("")
+    return Number(arrNum.sort((a,b) => b-a).join(""))
+  }
